@@ -2,7 +2,7 @@ import time
 import prime_numbers
 
 
-# pytest -v for verbose output
+# pytest -v for a detailed output
 # pytest -q --tb=no for no output
 def test_names():
     assert callable(prime_numbers.find_primes_serial), "find_primes_serial should be a function"
